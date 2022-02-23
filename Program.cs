@@ -9,7 +9,6 @@ public myStack () {
 public void push( T element ){
   list.Add(element);
   
-
 }
 public void pop(){
     if(list.Count==0){
@@ -17,11 +16,9 @@ public void pop(){
     }
     else {
          list.RemoveAt(list.Count-1);
-        
 
     }
  
-
 }
 public void print () {
     if (list.Count ==0){
@@ -32,11 +29,18 @@ public void print () {
            Console.Write(list[i]+"," );
     }
         Console.Write(list[list.Count -1]+"\n");
-
-
 }
 }
 
+
+public void peak(){
+    if (list.Count ==0){
+        Console.Write("Nothing to peak \n");
+    }
+    else {
+        Console.Write(list[list.Count -1]+"\n");
+    }
+}
 
 
 }
@@ -50,9 +54,11 @@ s.push(7);
 s.push(9);
 s.pop();
 s.print();
+s.peak();
 myStack <string>  s2 = new myStack <string>();
 s2.pop();
 s2.print();
+s2.peak();
 
 
 }
