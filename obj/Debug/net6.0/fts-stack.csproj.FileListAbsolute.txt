@@ -1,0 +1,15 @@
+C:\Users\rawan\OneDrive\Desktop\fts-stack\obj\Debug\net6.0\fts-stack.csproj.AssemblyReference.cache
+C:\Users\rawan\OneDrive\Desktop\fts-stack\obj\Debug\net6.0\fts-stack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rawan\OneDrive\Desktop\fts-stack\obj\Debug\net6.0\fts-stack.AssemblyInfoInputs.cache
+C:\Users\rawan\OneDrive\Desktop\fts-stack\obj\Debug\net6.0\fts-stack.AssemblyInfo.cs
+C:\Users\rawan\OneDrive\Desktop\fts-stack\obj\Debug\net6.0\fts-stack.csproj.CoreCompileInputs.cache
+C:\Users\rawan\OneDrive\Desktop\fts-stack\bin\Debug\net6.0\fts-stack.exe
+C:\Users\rawan\OneDrive\Desktop\fts-stack\bin\Debug\net6.0\fts-stack.deps.json
+C:\Users\rawan\OneDrive\Desktop\fts-stack\bin\Debug\net6.0\fts-stack.runtimeconfig.json
+C:\Users\rawan\OneDrive\Desktop\fts-stack\bin\Debug\net6.0\fts-stack.dll
+C:\Users\rawan\OneDrive\Desktop\fts-stack\bin\Debug\net6.0\ref\fts-stack.dll
+C:\Users\rawan\OneDrive\Desktop\fts-stack\bin\Debug\net6.0\fts-stack.pdb
+C:\Users\rawan\OneDrive\Desktop\fts-stack\obj\Debug\net6.0\fts-stack.dll
+C:\Users\rawan\OneDrive\Desktop\fts-stack\obj\Debug\net6.0\ref\fts-stack.dll
+C:\Users\rawan\OneDrive\Desktop\fts-stack\obj\Debug\net6.0\fts-stack.pdb
+C:\Users\rawan\OneDrive\Desktop\fts-stack\obj\Debug\net6.0\fts-stack.genruntimeconfig.cache
