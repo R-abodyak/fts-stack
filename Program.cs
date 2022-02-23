@@ -43,7 +43,10 @@ public void Peak(){
 }
 
 public void Clear (){
-     //Console.Write("Inhertance MY NEW METHOD");
+     //Console.Write("Inhertance MY NEW METHOD ");
+     if(list.Count==0){
+         Console.Write("Already clear   \n");
+     }
     list.Clear();
 }
 
@@ -70,7 +73,8 @@ s2.Print();
 s2.Peak();
 s2.Clear();
 s2.Print();
-
+myStack <int>  s3 = new myStack <int>();
+s3.Clear();
 
 }
 
