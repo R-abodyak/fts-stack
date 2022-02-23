@@ -6,11 +6,11 @@ public myStack () {
    list = new List<T>();
 }
 
-public void push( T element ){
+public void Push( T element ){
   list.Add(element);
   
 }
-public void pop(){
+public void Pop(){
     if(list.Count==0){
         Console.Write("Pop invalid :Empty Stack  \n");
     }
@@ -20,7 +20,7 @@ public void pop(){
     }
  
 }
-public void print () {
+public void Print () {
     if (list.Count ==0){
         Console.Write("Empty stack \n");
     }
@@ -33,7 +33,7 @@ public void print () {
 }
 
 
-public void peak(){
+public void Peak(){
     if (list.Count ==0){
         Console.Write("Nothing to peak \n");
     }
@@ -42,6 +42,10 @@ public void peak(){
     }
 }
 
+public void Clear (){
+     //Console.Write("Inhertance MY NEW METHOD");
+    list.Clear();
+}
 
 }
 
@@ -49,16 +53,23 @@ class Test {
 
 public static void Main () {
 myStack <int>  s = new myStack <int>();
-s.push(5);
-s.push(7);
-s.push(9);
-s.pop();
-s.print();
-s.peak();
+s.Push(5);
+s.Push(7);
+s.Push(9);
+s.Pop();
+s.Print();
+s.Peak();
 myStack <string>  s2 = new myStack <string>();
-s2.pop();
-s2.print();
-s2.peak();
+s2.Pop();
+s2.Print();
+s2.Peak();
+s2.Push("Ali"); 
+s2.Push("Muna");
+s2.Push("Ahmed");
+s2.Print();
+s2.Peak();
+s2.Clear();
+s2.Print();
 
 
 }
