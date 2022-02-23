@@ -1,6 +1,6 @@
 ﻿class myStack <T> : List<T> {
 private T data ;
-private int counter = -1 ; 
+
 List <T> list ;
 public myStack () {
    list = new List<T>();
@@ -8,16 +8,16 @@ public myStack () {
 
 public void push( T element ){
   list.Add(element);
-  counter++;
+  
 
 }
 public void pop(){
-    if(counter==-1){
+    if(list.Count==0){
         Console.Write("Empty Stack");
     }
     else {
-         list.RemoveAt(counter);
-         counter --;
+         list.RemoveAt(list.Count-1);
+        
 
     }
  
