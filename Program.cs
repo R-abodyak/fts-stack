@@ -13,7 +13,7 @@ public void push( T element ){
 }
 public void pop(){
     if(list.Count==0){
-        Console.Write("Empty Stack");
+        Console.Write("Pop invalid :Empty Stack  \n");
     }
     else {
          list.RemoveAt(list.Count-1);
@@ -25,17 +25,19 @@ public void pop(){
 }
 public void print () {
     if (list.Count ==0){
-        Console.Write("Empty stack ");
+        Console.Write("Empty stack \n");
     }
     else {
         for (int i=0;i<list.Count -1 ;i++){
            Console.Write(list[i]+"," );
     }
-        Console.Write(list[list.Count -1]);
+        Console.Write(list[list.Count -1]+"\n");
 
 
 }
 }
+
+
 
 }
 
@@ -48,6 +50,9 @@ s.push(7);
 s.push(9);
 s.pop();
 s.print();
+myStack <string>  s2 = new myStack <string>();
+s2.pop();
+s2.print();
 
 
 }
