@@ -1,2 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿class myStack <T> : List<T> {
+private T data ;
+
+
+
+
+}
+
+class Test {
+
+public static void main () {
+myStack <int>  s = new myStack <int>();
+
+}
+
+
+}
